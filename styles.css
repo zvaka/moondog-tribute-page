@@ -1,0 +1,159 @@
+
+html {
+	background-color: white;
+}
+
+body {
+    font: 0.9em Verdana, sans-serif;
+	background-color: rgb(240, 240, 240);
+	margin: 0px 8px;
+    text-align: center;
+}
+
+h1 {
+	font: bold 3em Georgia, serif;
+	margin: 0px 16px;	
+	padding: 25px 20px 10px 20px;
+}
+
+#tribute-title {
+	font-weight: bold;
+	margin: 1px 16px;
+	color: black;
+	padding: 10px 20px;
+}
+	
+#main {
+	margin: 0px;	
+	padding: 5px;
+}
+
+#trubute-info-one {
+	background-color: white;
+	margin: 0px 16px;
+	padding: 25px;}
+
+.tribute-article {
+	text-indent: 25px;
+	text-align: left;
+	padding: 5px;
+	margin: 0px 25px;
+}
+
+.img-div {
+	margin: 0px 25px;
+}
+
+#image {
+	width: 1200px;
+	max-width: 100%;
+	height: auto;
+    border-radius: 8px; 
+}
+
+.image-caption {
+	padding: 1px;
+	width: 100%;	
+}	
+
+.tribute-info-section {
+	margin: 0px 25px;
+	padding: 25px;
+}
+
+h3 {
+	font-size: 1.2em;
+	padding: 8px 8px 30px 8px;
+	margin: 5px 25px;
+}
+
+h4 {
+	font-size: 1em;
+	padding: 0px 8px 30px 8px;
+	margin: 5px 25px;	
+}
+	
+.image-instrument {
+	border-radius: 8px;	
+    width: 100%;
+    height: auto;	
+}
+
+.tribute-info-list {
+	list-style-type: circle;
+	list-style-position: outside;
+	text-align: left;
+	width: auto;
+    margin: 0px 25px;	
+}
+
+ul > li {
+	padding: 8px;
+}
+
+a {
+	color: #00994d;
+	text-decoration: none;
+}
+
+a:hover {
+	color: grey;
+}
+
+.container {
+	display: flex;
+	justify-content: space-evenly;	
+	flex-wrap:wrap;
+	margin: 50px 25px;
+	flex-wrap: wrap;
+	padding: 1px;	
+}
+
+footer {
+	display: inline-block;
+	text-align: left;
+	margin: 10px 50px;
+	padding: 25px;
+}
+
+.paragraph {
+	margin: 0px 25px;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+	    margin: 0px 5px;
+	    background-color: lavender;
+    }
+
+    #trubute-info-one,
+    .img-div 
+    {		
+        margin: 0px 5px;
+    }
+	
+    .tribute-article {
+	    margin: 0px 8px;
+    }
+
+    .tribute-info-section,
+    .tribute-info-list {
+        margin: 0px 3px;
+    }	
+    	
+    .container {
+    	margin: 28px 3px;
+    }
+	
+	.tribute-article {
+	text-indent: 3px;
+	}
+	
+    footer {
+    	margin: 7px 20px;
+    }	
+    .paragraph {
+    	margin: 0px 10px;
+    }
+}
